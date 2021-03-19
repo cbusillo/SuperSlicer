@@ -1,9 +1,7 @@
 name: C/C++ CI macos
 
 on:
-  push:
-    branches:
-      - CI
+  workflow_dispatch:
 
 jobs:
   build:
